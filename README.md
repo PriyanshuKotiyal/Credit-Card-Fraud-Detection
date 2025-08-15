@@ -1,6 +1,7 @@
 # Credit-Card-Fraud-Detection
 This project focuses on building a machine learning model to detect fraudulent credit card transactions. Using a real-world dataset, we preprocess the data, train a classification model, and evaluate its performance in identifying fraud. This is a classic example of handling a highly imbalanced dataset.
 
+
 # Overview
 Credit card fraud is a major concern for financial institutions, leading to significant financial losses each year. This project implements a Logistic Regression model to classify transactions as either legitimate or fraudulent. The primary challenge addressed is the severe class imbalance present in the dataset, where fraudulent transactions are extremely rare compared to legitimate ones.
 
@@ -16,7 +17,8 @@ Training a machine learning model
 
 Evaluating the model's performance
 
-#Dataset
+
+# Dataset
 The project uses the "Credit Card Fraud Detection" dataset, which is publicly available on Kaggle.
 
 Source: Kaggle Credit Card Fraud Detection Dataset
@@ -25,7 +27,8 @@ Content: The dataset contains transactions made by European cardholders. Due to 
 
 Key Feature: The dataset is highly imbalanced. The positive class (frauds) accounts for a very small percentage of all transactions.
 
-#Technologies Used
+
+# Technologies Used
 Python 3.x
 
 Pandas: For data manipulation and analysis.
@@ -39,7 +42,7 @@ Matplotlib & Seaborn: For data visualization.
 Jupyter Notebook: For interactive development.
 
 
-#Conclusion
+# Conclusion
 This project successfully developed a Logistic Regression model to identify fraudulent credit card transactions. After addressing the severe class imbalance in the initial dataset through an under-sampling technique, the model was trained and evaluated on a new, balanced dataset.
 
 The model's performance is highly effective, as demonstrated by the following accuracy scores:
